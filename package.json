@@ -1,0 +1,12 @@
+{
+  "name": "langloop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend "
+  },
+  "keywords": [],
+  "author": "JJParungao",
+  "license": "ISC",
+  "description": "Langloop is a full-stack application that integrates Stream Chat and Video SDK to create a collaborative platform for real-time communication and video conferencing."
+}
